@@ -65,8 +65,7 @@ If you want to mirror a repository in another location, including getting update
 {% data reusables.command_line.open_the_multi_os_terminal %}
 2. Create a bare mirrored clone of the repository.
   ```shell
-  $ git clone --mirror https://{% data variables.command_line.codeblock %}/<em>exampleuser</em>/<em>repository-to-mirror</em>.git
-  ```
+  $ git clone --mirror 
 3. Set the push location to your mirror.
   ```shell
   $ cd <em>repository-to-mirror</em>.git
